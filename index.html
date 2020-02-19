@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+<title>Aeris Surveys</title>
+<style type="text/css">
+
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(imgs/fundo.png);
+	background-repeat: repeat-x;	
+	background-attachment:fixed;
+}
+</style>
+<style type="text/css">
+</style>
+
+<link href="index.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_effectSlide(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoSlide(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+</script>
+</head>
+<body>
+<div id="fundotop">
+	<div id="menu">
+		<div id="menu1" onClick="pagina.location = 'framebase.html';" onMouseOver="MM_effectAppearFade('menu15', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu15', 200, 100, 0, false)">home</div>
+		<div id="menu15"></div>
+		<div id="menu2" onClick="pagina.location = 'Survey Layout.html';" onMouseOver="MM_effectAppearFade('menu25', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu25', 200, 100, 0, false)">Survey Layout</div>
+		<div id="menu25"></div>
+		<div id="menu3" onClick="pagina.location = 'Survey Produtos.html';" onMouseOver="MM_effectAppearFade('menu35', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu35', 200, 100, 0, false)">Survey Produto</div>
+		<div id="menu35"></div>
+		<div id="menu4" onClick="pagina.location = 'Survey Empresa.html';" onMouseOver="MM_effectAppearFade('menu45', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu45', 200, 100, 0, false)">Survey Empresa</div>
+		<div id="menu45"></div>
+		<div id="logbuschov"  onMouseOver="MM_effectAppearFade('logbusc', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('logbusc', 200, 100, 0, false)">
+        	<div id="logbusc"></div>
+		</div>
+	</div>
+	<div id="busca">
+		<div id="busca2">
+	   		 <label for="search"></label>
+	   		 <input name="search" type="text" id="search" size="20">
+		</div>
+		<div id="busca3">
+			<input type="submit" name="searchbtn" id="searchbtn" value="search">
+		</div>
+	</div>
+    <div id="logintext">
+		<div id="logintext2"><strong><em onClick="MM_effectAppearFade('login', 200, 0, 100, false)">Sign In</em></strong>
+   		</div>
+   		<div id="logintext3">or
+    	</div>
+   		<div id="logintext4"><strong><em>Sign Up</em></strong>
+  		</div>
+	 </div>
+</div>
+	
+	<div id="login">
+    	<input name="btnclose" id="btncls" onClick="MM_effectAppearFade('login', 200, 100, 0, false)" type="button" value="X">
+        <input name="btnlogin" id="btnlog" onClick="MM_effect" type="button" value="Log In">
+	</div>
+<div id="div123"><iframe name="pagina" width="100%" height="100%" scrolling="no" src="framebase.html"></iframe>
+</div>
+<div id="bot"><div id="bot2">Desenvolvido exclusivamente por Keyne Muraro Gularte</div></div>
+</body>
+</html>
+
+
+
