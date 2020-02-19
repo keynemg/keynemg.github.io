@@ -262,7 +262,7 @@
 	height:50px;
 	z-index:2;
 }
-#div123 {
+#diviframebase {
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
@@ -294,7 +294,7 @@
 }
 
 
-#div12345 {
+#divbaseframe {
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
@@ -309,7 +309,7 @@
 	height:650px;
 	z-index:1;
 }
-#div123456 {
+#divpagesframe {
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
