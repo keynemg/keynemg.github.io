@@ -9,7 +9,8 @@
 	z-index:1;
 }
 #fundotop {
-	background-image:url(imgs/fundotop_01.png);
+	background-color: rgb(0,0,0);
+	background-image:url(imgs/TopTile.png);
 	position:fixed;
 	width:100%;
 	margin-left:0px;
@@ -23,7 +24,20 @@
 	height:70px;
 	z-index:4;
 }
+#menuInner {
+	vertical-align:middle;
+	padding-top:0px;
+	color:#999;
+	text-align:center;
+	position:absolute;
+	left:0px;
+	margin-top:0px;
+	width:130px;
+	height:38px;
+	z-index:8;
+}
 #menu1 {
+	background-image: url(imgs/TopButton.png);
 	vertical-align:middle;
 	padding-top:20px;
 	color:#999;
@@ -32,7 +46,7 @@
 	left:0px;
 	margin-top:12px;
 	width:130px;
-	height:58px;
+	height:38px;
 	z-index:6;
 }
 #menu15 {
@@ -47,6 +61,7 @@
 	z-index:5;
 }
 #menu2 {
+		background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
 	padding-top:20px;
@@ -54,7 +69,7 @@
 	left:130px;
 	margin-top:12px;
 	width:130px;
-	height:58px;
+	height:38px;
 	z-index:6;
 }
 #menu25 {
@@ -69,6 +84,7 @@
 	z-index:5;
 }
 #menu3 {
+	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
 	padding-top:20px;
@@ -76,10 +92,11 @@
 	left:260px;
 	margin-top:12px;
 	width:130px;
-	height:58px;
+	height:38px;
 	z-index:6;
 }
 #menu35 {
+
 	display:none;
 	background-image:url(imgs/buttonon2.png);
 	text-align:center;
@@ -91,6 +108,7 @@
 	z-index:5;
 }
 #menu4 {
+	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
 	padding-top:20px;
@@ -98,10 +116,33 @@
 	left:390px;
 	margin-top:12px;
 	width:130px;
-	height:58px;
+	height:38px;
 	z-index:6;
 }
 #menu45 {
+	display:none;
+	background-image:url(imgs/buttonon2.png);
+	text-align:center;
+	position:absolute;
+	left:433px;
+	margin-top:13px;
+	width:160px;
+	height:56px;
+	z-index:5;
+}
+#menu5 {
+		background-image: url(imgs/TopButton.png);
+	text-align:center;
+	position:absolute;
+	padding-top:20px;
+	color:#999;
+	left:520px;
+	margin-top:12px;
+	width:130px;
+	height:38px;
+	z-index:6;
+}
+#menu5 {
 	display:none;
 	background-image:url(imgs/buttonon2.png);
 	text-align:center;
@@ -171,7 +212,7 @@
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	margin-left:1690px;
+	margin-left:1480px;
 	margin-top:25px;
 	width:190px;
 	height:25px;
@@ -194,7 +235,7 @@
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	margin-left:50px;
+	margin-left:140px;
 	width:30px;
 	height:25px;
 	z-index:4;
@@ -203,8 +244,8 @@
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	margin-left:80px;
-	width:60px;
+	margin-left:180px;
+	width:100px;
 	height:25px;
 	z-index:4;
 }
@@ -216,17 +257,41 @@
 	display:none;
 	position:absolute;
 	background-image:url(imgs/signup.png);
+	background-repeat: no-repeat;
+	right:300px;
+	margin-top:70px;
+	width:305px;
+	height:153px;
+	z-index:4;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+#login2 {
+	display:none;
+	position:absolute;
+	background-image:url(imgs/signup.png);
+	background-repeat: no-repeat;
 	right:0px;
 	margin-top:70px;
 	width:305px;
 	height:153px;
 	z-index:4;
+	padding-left: 10px;
+	padding-right: 0px;
 }
 #btncls {
-	margin-left:270px;
-	margin-top:5px;
+	margin-left:250px;
+	margin-top:10px;
 	width:30px;
 	height:30px;
+	position: absolute;
+}
+#btncls2 {
+	margin-left:250px;
+	margin-top:10px;
+	width:30px;
+	height:30px;
+	position: absolute;
 }
 #btnlog {
 	margin-left:200px;
@@ -244,6 +309,7 @@
 	z-index:10;
 }
 #bot {
+	text-align: center;
 	position:fixed;
 	background-image:url(imgs/down.png);
 	background-repeat:repeat-x;
@@ -253,9 +319,10 @@
 	z-index:2;
 }
 #bot2 {
+	text-align: center;
 	position:fixed;
-	color:#999;
-	bottom:0px;
+	color:#555;
+	bottom:25px;
 	left:50%;
 	margin-left:-200px;
 	width:400px;
@@ -266,15 +333,16 @@
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
+	text-align: center;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#333;
 	background-color:#CCC;
 	position:absolute;
-	top:150px;
+	top:90px;
 	margin-left:50%;
-	left:-498px;
-	width:996px;
-	height:650px;
+	left:-950px;
+	width:1900px;
+	height:750px;
 	z-index:1;
 }
 #div1234 {
@@ -292,35 +360,35 @@
 	height:183px;
 	z-index:1;
 }
-
-
 #divbaseframe {
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
+	text-align: center;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#333;
 	background-color:#CCC;
 	position:absolute;
 	top:70px;
 	margin-left:50%;
-	left:-498px;
-	width:996px;
-	height:650px;
+	left:-945px;
+	width:1890px;
+	height:680px;
 	z-index:1;
 }
 #divpagesframe {
 	font-size:36px;
 	text-shadow:#CCC;
 	text-decoration:blink;
+	text-align: center;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#333;
 	background-color:#CCC;
 	position:absolute;
 	top:0px;
 	margin-left:50%;
-	left:-498px;
-	width:996px;
-	height:650px;
+	left:-945px;
+	width:1890px;
+	height:630px;
 	z-index:1;
 }

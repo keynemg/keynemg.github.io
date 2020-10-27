@@ -2,7 +2,6 @@
 <head>
 <title>Keynemg</title>
 <style type="text/css">
-
 body{
 	margin-left: 0px;
 	margin-top: 0px;
@@ -14,6 +13,7 @@ body{
 }
 </style>
 <style type="text/css">
+	body {background: url();}
 </style>
 
 <link href="index.css" rel="stylesheet" type="text/css">
@@ -31,20 +31,23 @@ function MM_effectSlide(targetElement, duration, from, to, toggle)
 </script>
 </head>
 <body>
+	<!-- Placeholder -->
 <div id="fundotop">
 	<div id="menu">
-		<div id="menu1" onClick="pagina.location = 'frame_base.html';" onMouseOver="MM_effectAppearFade('menu15', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu15', 200, 100, 0, false)">Home</div>
+		<div id="menu1" onClick="pagina.location = 'oldsite/Index.html';" onMouseOver="MM_effectAppearFade('menu15', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu15', 200, 100, 0, false)">
+		Home</div>
 		<div id="menu15"></div>
-		<div id="menu2" onClick="pagina.location = 'first_category.html';" onMouseOver="MM_effectAppearFade('menu25', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu25', 200, 100, 0, false)">First Category</div>
+		<div id="menu2" onClick="pagina.location = 'first_category.html';" onMouseOver="MM_effectAppearFade('menu25', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu25', 200, 100, 0, false)">Games</div>
 		<div id="menu25"></div>
-		<div id="menu3" onClick="pagina.location = 'second_category.html';" onMouseOver="MM_effectAppearFade('menu35', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu35', 200, 100, 0, false)">Second Category</div>
+		<div id="menu3" onClick="pagina.location = 'second_category.html';" onMouseOver="MM_effectAppearFade('menu35', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu35', 200, 100, 0, false)">Narrative</div>
 		<div id="menu35"></div>
-		<div id="menu4" onClick="pagina.location = 'third_category.html';" onMouseOver="MM_effectAppearFade('menu45', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu45', 200, 100, 0, false)">Third Category</div>
+		<div id="menu4" onClick="pagina.location = 'third_category.html';" onMouseOver="MM_effectAppearFade('menu45', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('menu45', 200, 100, 0, false)">Modeling</div>
 		<div id="menu45"></div>
 		<div id="logbuschov"  onMouseOver="MM_effectAppearFade('logbusc', 200, 0, 100, false)" onMouseOut="MM_effectAppearFade('logbusc', 200, 100, 0, false)">
         	<div id="logbusc"></div>
 		</div>
 	</div>
+	<!--
 	<div id="busca">
 		<div id="busca2">
 	   		 <label for="search"></label>
@@ -54,23 +57,37 @@ function MM_effectSlide(targetElement, duration, from, to, toggle)
 			<input type="submit" name="searchbtn" id="searchbtn" value="search">
 		</div>
 	</div>
+	-->
     <div id="logintext">
-		<div id="logintext2"><strong><em onClick="MM_effectAppearFade('login', 200, 0, 100, false)">Sign In</em></strong>
+		<div id="logintext2"><strong><em onClick="MM_effectAppearFade('login', 200, 0, 100, false)">Curriculum/Portfolio</em></strong>
    		</div>
    		<div id="logintext3">or
     	</div>
-   		<div id="logintext4"><strong><em>Sign Up</em></strong>
+   		<div id="logintext4"><strong><em onClick="MM_effectAppearFade('login2', 200, 0, 100, false)">Contact Info</em></strong>
   		</div>
 	 </div>
-</div>
-	
+</div>	
 	<div id="login">
-    	<input name="btnclose" id="btncls" onClick="MM_effectAppearFade('login', 200, 100, 0, false)" type="button" value="X">
-        <input name="btnlogin" id="btnlog" onClick="MM_effect" type="button" value="Log In">
+		<input name="btnclose" id="btncls" onClick="MM_effectAppearFade('login', 200, 100, 0, false)" type="button" value="X">
+		<h3>Links:</h3>
+		Curriculum: <br>
+		Portfolio: <br>
 	</div>
-<div id="diviframebase"><iframe name="pagina" width="100%" height="100%" scrolling="no" src="frame_base.html"></iframe>
+		<div id="login2">
+		<input name="btnclose2" id="btncls2" onClick="MM_effectAppearFade('login2', 200, 100, 0, false)" type="button" value="X">
+		<h3>Contato:</h3>
+		E-mail: keynemg@hotmail.com<br>
+		Discord: Motepral#0977<br>
+	</div>
+ <div id="diviframebase"><iframe name="pagina" width="100%" height="100%" scrolling="yes" src="oldsite/Index.html"></iframe>
 </div>
-<div id="bot"><div id="bot2">Desenvolvido por Keyne Muraro Gularte</div></div>
+<div id="bot">
+	<div id="bot2">
+		Developed by<br>
+		Desenvolvido por <br>
+		Keyne Muraro Gularte
+	</div>
+</div>
 </body>
 </html>
 
