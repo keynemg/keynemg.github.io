@@ -263,7 +263,7 @@
 	width:305px;
 	height:153px;
 	z-index:4;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-right: 0px;
 }
 #login2 {
@@ -276,18 +276,18 @@
 	width:305px;
 	height:153px;
 	z-index:4;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-right: 0px;
 }
 #btncls {
-	margin-left:250px;
+	margin-left:230px;
 	margin-top:10px;
 	width:30px;
 	height:30px;
 	position: absolute;
 }
 #btncls2 {
-	margin-left:250px;
+	margin-left:230px;
 	margin-top:10px;
 	width:30px;
 	height:30px;
