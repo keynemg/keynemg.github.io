@@ -37,6 +37,7 @@
 	z-index:8;
 }
 #menu1 {
+	cursor: pointer;
 	background-image: url(imgs/TopButton.png);
 	vertical-align:middle;
 	padding-top:20px;
@@ -61,7 +62,8 @@
 	z-index:5;
 }
 #menu2 {
-		background-image: url(imgs/TopButton.png);
+	cursor: pointer;
+	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
 	padding-top:20px;
@@ -84,6 +86,7 @@
 	z-index:5;
 }
 #menu3 {
+	cursor: pointer;
 	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
@@ -108,6 +111,7 @@
 	z-index:5;
 }
 #menu4 {
+	cursor: pointer;
 	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
@@ -131,7 +135,8 @@
 	z-index:5;
 }
 #menu5 {
-		background-image: url(imgs/TopButton.png);
+	cursor: pointer;
+	background-image: url(imgs/TopButton.png);
 	text-align:center;
 	position:absolute;
 	padding-top:20px;
@@ -212,7 +217,7 @@
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	margin-left:1480px;
+	margin-left:1280px;
 	margin-top:25px;
 	width:190px;
 	height:25px;
@@ -220,10 +225,12 @@
 	float:left;
 }
 #logintext2 {
+	cursor: pointer;
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	width:100px;
+	padding-top: 6px;
+	width:150px;
 	height:25px;
 	z-index:4;
 }
@@ -241,10 +248,12 @@
 	z-index:4;
 }
 #logintext4 {
+	cursor: pointer;
 	text-align:center;
 	color:#CCC;
 	position:absolute;
-	margin-left:200px;
+	padding-top: 6px;
+	margin-left:320px;
 	width:100px;
 	height:25px;
 	z-index:4;
